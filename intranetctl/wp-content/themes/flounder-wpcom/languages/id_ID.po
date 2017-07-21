@@ -1,0 +1,216 @@
+# Translation of Flounder in Indonesian
+# This file is distributed under the same license as the Flounder package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-06-22 07:33:19+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Flounder\n"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/flounder/style.css
+msgid "Flounder is a flat, minimally styled theme for bloggers which features colorful support for post formats and a clean, responsive layout."
+msgstr "Flounder adalah tema bergaya minimalis dan datar untuk blogger yang menampilkan dukungan warna-warni untuk format kiriman dan tata letak yang bersih dan responsif."
+
+#: sidebar.php:24
+msgid "Meta"
+msgstr "Meta"
+
+#: searchform.php:10
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Cari &hellip;"
+
+#: searchform.php:11
+msgctxt "submit button"
+msgid "Search"
+msgstr "Cari"
+
+#: searchform.php:9
+msgctxt "assistive text"
+msgid "Search"
+msgstr "Cari"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Hasil Pencarian untuk: %s"
+
+#: inc/template-tags.php:161
+msgid "Leave a comment"
+msgstr "Tinggalkan komentar"
+
+#: inc/template-tags.php:160
+msgid "% Comments"
+msgstr "% Komentar"
+
+#: inc/template-tags.php:160
+msgid "0 Comments"
+msgstr "0 komentar"
+
+#: inc/template-tags.php:160
+msgid "1 Comment"
+msgstr "1 Komentar"
+
+#: inc/template-tags.php:145
+msgid "View all posts by %s"
+msgstr "Lihat semua tulisan milik %s"
+
+#: inc/template-tags.php:115
+msgid "Your comment is awaiting moderation."
+msgstr "Komentar Anda sedang menunggu moderasi."
+
+#: inc/template-tags.php:90
+msgid "%1$s ago"
+msgstr "%1$s yang lalu"
+
+#: inc/template-tags.php:88
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s pada %2$s"
+
+#: inc/template-tags.php:71
+msgid "Pingback:"
+msgstr "Ping balik:"
+
+#: inc/template-tags.php:34
+msgid "Post navigation"
+msgstr "Navigasi tulisan"
+
+#: inc/extras.php:58
+msgid "Page %s"
+msgstr "Halaman %s"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Source Sans Pro, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:125
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr "on"
+
+#: header.php:44
+msgid "Skip to content"
+msgstr "Lanjut ke konten"
+
+#: functions.php:78
+msgid "Sidebar"
+msgstr "Bilah Sisi"
+
+#: functions.php:51
+msgid "Primary Menu"
+msgstr "Menu Utama"
+
+#: footer.php:16
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s oleh %2$s."
+
+#: footer.php:14
+msgid "Proudly powered by %s"
+msgstr "Dengan bangga ditenagai oleh %s"
+
+#. translators: used between list items, there is a space after the comma
+#: content.php:71 content.php:81
+msgid ", "
+msgstr ", "
+
+#: content.php:37
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Baca lebih lanjut <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-page.php:23 content.php:21 content.php:89
+msgid "Edit"
+msgstr "Edit"
+
+#: content-page.php:19 content.php:40
+msgid "Pages:"
+msgstr "Halaman:"
+
+#: content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Rupanya kami tidak dapat menemukan apa yang Anda cari. Mungkin pencarian dapat membantu."
+
+#: content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Maaf, tidak ada yang cocok dengan kata yang anda cari. Silahkan coba lagi dengan kata kunci yang lain"
+
+#: content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Sudah siap menerbitkan tulisan pertamamu? <a href=\"%1$s\">Mulai di sini</a>."
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "Tidak Menemukan Apa-apa"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Komentar ditutup."
+
+#: comments.php:38 comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr "Komentar Selanjutnya &rarr;"
+
+#: comments.php:37 comments.php:57
+msgid "&larr; Older Comments"
+msgstr "&larr; Komentar Sebelumnya"
+
+#: comments.php:36 comments.php:56
+msgid "Comment navigation"
+msgstr "Navigasi komentar"
+
+#: archive.php:63 sidebar.php:17
+msgid "Archives"
+msgstr "Arsip"
+
+#: archive.php:60
+msgid "Links"
+msgstr "Tautan"
+
+#: archive.php:57
+msgid "Quotes"
+msgstr "Kutipan"
+
+#: archive.php:54
+msgid "Videos"
+msgstr "Film"
+
+#: archive.php:51
+msgid "Images"
+msgstr "Gambar"
+
+#: archive.php:48
+msgid "Asides"
+msgstr "Sampingan"
+
+#: archive.php:45
+msgid "Year: %s"
+msgstr "Tahun: %s"
+
+#: archive.php:45
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:42
+msgid "Month: %s"
+msgstr "Bulan: %s"
+
+#: archive.php:42
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:39
+msgid "Day: %s"
+msgstr "Hari: %s"
+
+#: archive.php:31
+msgid "Author: %s"
+msgstr "Penulis: %s"
+
+#. translators: %1$s: smiley
+#: 404.php:29
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Coba cari di arsip bulanan. %1$s"

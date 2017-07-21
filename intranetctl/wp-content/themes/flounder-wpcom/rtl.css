@@ -1,0 +1,442 @@
+/*
+Theme Name: Flounder
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+/* =Reset
+-------------------------------------------------------------- */
+
+caption,
+th,
+td {
+	text-align: right;
+}
+
+/* =Global
+----------------------------------------------- */
+
+/* Text elements */
+
+ul,
+ol {
+	margin: 0 2em 1em 0;
+}
+
+li > ul,
+li > ol {
+	margin-right: 1em;
+	margin-left: auto;
+}
+
+textarea {
+	padding-right: 3px;
+	padding-left: 0;
+}
+
+/* Alignment */
+.alignright {
+	float: right;
+	margin-left: 1.5em;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+	margin-right: 1.5em;
+	margin-left: auto;
+}
+
+/* Text meant only for screen readers */
+
+.screen-reader-text:focus {
+	right: 5px;
+	left: auto;
+}
+
+/**
+ * Colors Mixin. All post-type specific colors are
+ * defined here. This is assumed to be called on the
+ * <article> for a post.
+ */
+
+table td:last-child {
+	border-left-width: 1px;
+}
+
+/* =WHOLE PAGE */
+
+.content-area {
+	float: left;
+	margin: 0 -22.9166667% 0 0;
+}
+
+.site-content {
+	margin: 30px 29.1666667% 0 0;
+}
+
+.site-header,
+.side-widget-area {
+	clear: right;
+	float: right;
+}
+
+/* =PER-POST */
+
+.entry-area {
+	float: right;
+	margin: 0 0 0 -26.4705882%;
+}
+
+.entry-header,
+.entry-content,
+.entry-summary,
+.comment-links,
+.comments-area {
+	margin: 0 0 0 26.4705882%;
+}
+
+.type-page .entry-header {
+	padding-left: 26.4705882%;
+	padding-right: 30px;
+}
+
+.sidebar-bg {
+	left: 0;
+	right: auto;
+}
+
+/* =SEARCH RESULTS */
+
+input[type="password"] {
+	margin-right: 5px;
+	margin-left: auto;
+}
+
+/* =HEADER/SIDEBAR */
+
+.custom-header .site-branding:before {
+	right: 0;
+	left: 0;
+}
+
+/* =GENERAL POST STYLE */
+
+.entry-header.entry-meta .meta {
+	float: right;
+}
+
+.navigation-comment .nav-next,
+.navigation .nav-next {
+	float: left;
+}
+
+.navigation-comment .nav-previous,
+.navigation .nav-previous {
+	float: right;
+}
+
+.navigation a {
+	padding: 15px 15px 15px 25px;
+}
+
+.navigation .nav-next a {
+	padding: 15px 25px 15px 15px;
+}
+
+/* =POST FORMAT CONTENT */
+
+.format-gallery .gallery.gallery-columns-3 .gallery-item:nth-child(3) {
+	clear: right;
+}
+
+/* =COLORS & ICONS */
+
+h1 .dashicons,
+h2 .dashicons,
+h3 .dashicons {
+	margin: -5px 0 0 8px;
+}
+
+.hentry .entry-header.entry-meta .meta {
+	border-left: 2px solid #16a085;
+	border-right: none;
+}
+
+.format-image .entry-header.entry-meta .meta {
+	border-left: 2px solid #27ae60;
+	border-right: none;
+}
+
+.format-gallery .entry-header.entry-meta .meta {
+	border-left: 2px solid #2980b9;
+	border-right: none;
+}
+
+.format-link .entry-header.entry-meta .meta {
+	border-left: 2px solid #8e44ad;
+	border-right: none;
+}
+
+.format-status .entry-header.entry-meta .meta {
+	border-left: 2px solid #ad2f62;
+	border-right: none;
+}
+
+.format-video .entry-header.entry-meta .meta {
+	border-left: 2px solid #c0392b;
+	border-right: none;
+}
+
+.format-audio .entry-header.entry-meta .meta {
+	border-left: 2px solid #d35400;
+	border-right: none;
+}
+
+.format-chat .entry-header.entry-meta .meta {
+	border-left: 2px solid #d99425;
+	border-right: none;
+}
+
+.format-quote .entry-header.entry-meta .meta {
+	border-left: 2px solid #21a3a4;
+	border-right: none;
+}
+
+.format-aside .entry-header.entry-meta .meta {
+	border-left: 2px solid #6fa623;
+	border-right: none;
+}
+
+.hentry.type-page .entry-header.entry-meta .meta,
+.hentry.error404 .entry-header.entry-meta .meta,
+.hentry.no-results .entry-header.entry-meta .meta {
+	border-left: 2px solid #7f8c8d;
+	border-right: none;
+}
+
+/* =COMMENTS */
+
+.comment-links .icon {
+	float: right;
+	margin-left: 7px;
+	margin-right: auto;
+}
+
+.comment-links .add .icon {
+	margin-left: 6px;
+	margin-right: auto;
+}
+
+article.comment {
+	margin: 15px 90px 15px 0;
+}
+
+article.comment:after {
+	right: -10px;
+	left: auto;
+}
+
+.comment-avatar {
+	margin-right: -105px;
+	margin-left: auto;
+}
+
+li.comment li.comment article.comment {
+	margin: 15px 0px 15px 90px;
+}
+
+li.comment li.comment article.comment:after {
+	right: auto;
+	left: -10px;
+}
+
+li.comment li.comment .comment-avatar {
+	float: left;
+	margin: 0 0 0 -105px;
+}
+
+li.comment li.comment .comment-avatar img {
+	float: left;
+}
+
+#reply-title .icon {
+	float: right;
+	margin-left: 5px;
+	margin-right: auto;
+}
+
+#respond .logged-in-as {
+	float: right;
+}
+
+.comment-form-author,
+.comment-form-email {
+	float: right;
+}
+
+.comment-form-author {
+	padding-left: 15px;
+	padding-right: 0;
+}
+
+.comment-form-email {
+	padding-right: 15px;
+	padding-left: 0;
+}
+
+#jetpack-subscribe {
+	clear: right;
+}
+
+#submit {
+	float: left;
+}
+
+/* =LARGE SCREEN > 1300 */
+@media screen and (min-width: 1300px) {
+	.content-area {
+		float: right;
+		margin: 0;
+	}
+	.site-header {
+		float: right;
+		margin-left: -100%;
+		margin-right: auto;
+	}
+
+	.side-widget-area {
+		clear: none;
+		float: left;
+		margin: 30px -100% 0 0;
+	}
+	.site-content {
+		margin: 30px 22.58065% 0;
+	}
+
+}
+
+/* =LESS THAN 1000 WIDE */
+@media screen and (max-width: 1000px) {
+	.content-area {
+		margin-right: -220px;
+		margin-left: auto;
+	}
+
+	.site-content {
+		margin-right: 250px;
+		margin-left: auto;
+	}
+
+	.entry-area {
+		margin-left: -180px;
+		margin-right: auto;
+	}
+
+	.entry-header,
+	.entry-content,
+	.entry-summary,
+	.comment-links,
+	.comments-area {
+		margin-left: 180px;
+		margin-right: auto;
+	}
+}
+
+/* =LESS THAN 900 WIDE */
+@media screen and (max-width: 900px) {
+	.entry-area {
+		margin-left: -140px;
+		margin-right: auto;
+	}
+
+	.entry-header,
+	.entry-content,
+	.entry-summary,
+	.comment-links,
+	.comments-area {
+		margin-left: 140px;
+		margin-right: auto;
+	}
+
+}
+
+/* =LESS THAN 770 WIDE */
+@media screen and (max-width: 770px) {
+	.site-header .site-branding {
+		float: right;
+	}
+
+	.site-header nav {
+		float: left;
+	}
+	.site-content {
+		margin: 0;
+	}
+	.site-header nav .menu-main-nav-container {
+		margin: 0 210px 0 0px;
+	}
+
+	.content-area {
+		margin-right: 0;
+		margin-left: auto;
+	}
+
+}
+
+/* =LESS THAN 500 WIDE */
+@media screen and (max-width: 500px) {
+	article.comment:after {
+		right: 22px;
+		left: auto;
+	}
+
+	.comment-avatar {
+		margin: -95px -15px 24px 0;
+	}
+
+	li.comment li.comment article.comment:after {
+		right: 22px;
+		left: auto;
+	}
+
+	li.comment li.comment .comment-avatar {
+		margin: -95px -15px 24px 0;
+	}
+
+	li.comment li.comment .comment-avatar img {
+		float: right;
+	}
+	.site-header .site-branding {
+		float: none;
+	}
+
+}
+
+/* =LESS THAN 400 WIDE */
+@media screen and (max-width: 400px) {
+	.entry-area {
+		margin-left: 0px;
+		margin-right: auto;
+	}
+
+	.entry-header,
+	.entry-content,
+	.entry-summary,
+	.comment-links,
+	.comments-area {
+		margin-left: 0px;
+		margin-right: auto;
+	}
+
+}

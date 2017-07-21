@@ -1,0 +1,231 @@
+# Translation of Flounder in French (Canada)
+# This file is distributed under the same license as the Flounder package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-07-06 12:04:43+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Flounder\n"
+
+#: sidebar.php:24
+msgid "Meta"
+msgstr "Méta"
+
+#: searchform.php:10
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Chercher &hellip;"
+
+#: searchform.php:11
+msgctxt "submit button"
+msgid "Search"
+msgstr "Chercher"
+
+#: searchform.php:9
+msgctxt "assistive text"
+msgid "Search"
+msgstr "Rech"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Résultats de recherche pour : %s"
+
+#: inc/template-tags.php:161
+msgid "Leave a comment"
+msgstr "Laisser un commentaire"
+
+#: inc/template-tags.php:160
+msgid "% Comments"
+msgstr "% commentaires"
+
+#: inc/template-tags.php:160
+msgid "0 Comments"
+msgstr "0 Commentaire"
+
+#: inc/template-tags.php:160
+msgid "1 Comment"
+msgstr "1 commentaire"
+
+#: inc/template-tags.php:145
+msgid "View all posts by %s"
+msgstr "Voir tous les articles par %s"
+
+#: inc/template-tags.php:115
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération."
+
+#: inc/template-tags.php:90
+msgid "%1$s ago"
+msgstr "il y a %1$s"
+
+#: inc/template-tags.php:93
+msgid "posted %1$s by %2$s"
+msgstr "publié %1$s par %2$s"
+
+#: inc/template-tags.php:103
+msgid "in reply to %s"
+msgstr "en réponse à %s"
+
+#: inc/template-tags.php:88
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s à %2$s"
+
+#: inc/template-tags.php:71
+msgid "Pingback:"
+msgstr "Ping :"
+
+#: inc/template-tags.php:34
+msgid "Post navigation"
+msgstr "Navigation des articles"
+
+#: inc/extras.php:58
+msgid "Page %s"
+msgstr "Page %s"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Source Sans Pro, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:125
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr "on"
+
+#: header.php:44
+msgid "Skip to content"
+msgstr "Aller au contenu principal"
+
+#: functions.php:78
+msgid "Sidebar"
+msgstr "Colonne latérale"
+
+#: functions.php:51
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+#: footer.php:16
+msgid "Theme: %1$s by %2$s."
+msgstr "Thème %1$s par %2$s."
+
+#: footer.php:14
+msgid "Proudly powered by %s"
+msgstr "Fièrement propulsé par %s"
+
+#. translators: used between list items, there is a space after the comma
+#: content.php:71 content.php:81
+msgid ", "
+msgstr ", "
+
+#: content.php:60
+msgid "All %s posts"
+msgstr "Tous les articles de %s"
+
+#: content.php:37
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lire la suite <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-page.php:23 content.php:21 content.php:89
+msgid "Edit"
+msgstr "Modifier"
+
+#: content-page.php:19 content.php:40
+msgid "Pages:"
+msgstr "Pages :"
+
+#: content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Le contenu demandé n&rsquo;a pu être trouvé. Pourquoi ne pas lancer une recherche? "
+
+#: content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Désolé, mais rien ne correspond à vos critères. Réessayez en modifiant les termes de recherche."
+
+#: content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Vous êtes prêt à publier votre premier article? <a href=\"%1$s\">Commencez ici</a>."
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "Inaccessible"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: comments.php:38 comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr "Commentaires ultérieurs &rarr;"
+
+#: comments.php:37 comments.php:57
+msgid "&larr; Older Comments"
+msgstr "&larr; Commentaires antérieurs"
+
+#: comments.php:36 comments.php:56
+msgid "Comment navigation"
+msgstr "Navigation des commentaires"
+
+#: archive.php:63 sidebar.php:17
+msgid "Archives"
+msgstr "Archives"
+
+#: archive.php:60
+msgid "Links"
+msgstr "Liens"
+
+#: archive.php:57
+msgid "Quotes"
+msgstr "Citations"
+
+#: archive.php:54
+msgid "Videos"
+msgstr "Vidéos"
+
+#: archive.php:51
+msgid "Images"
+msgstr "Images"
+
+#: archive.php:48
+msgid "Asides"
+msgstr "Apartés"
+
+#: archive.php:45
+msgid "Year: %s"
+msgstr "Année&nbsp;: %s"
+
+#: archive.php:45
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:42
+msgid "Month: %s"
+msgstr "Mois&nbsp;: %s"
+
+#: archive.php:42
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:39
+msgid "Day: %s"
+msgstr "Jour&nbsp;: %s"
+
+#: archive.php:31
+msgid "Author: %s"
+msgstr "Auteur : %s"
+
+#. translators: %1$s: smiley
+#: 404.php:29
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Nous vous suggérons de parcourir les archives mensuelles. %1$s"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Aucun contenu n&rsquo; a été trouvé à l&rsquo;adresse demandée. Pourquoi ne pas essayer l&rsquo;un des liens ci-dessouss, ou encore, lancer une recherche?"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oups! Cette page est introuvable."

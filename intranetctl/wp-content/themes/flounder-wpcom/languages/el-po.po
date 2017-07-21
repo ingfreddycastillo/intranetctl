@@ -1,0 +1,211 @@
+# Translation of Flounder in Greek (Polytonic)
+# This file is distributed under the same license as the Flounder package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-02-27 21:28:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Flounder\n"
+
+#: sidebar.php:24
+msgid "Meta"
+msgstr "Μεταλειτουργίες"
+
+#: searchform.php:10
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Ψάξτε &hellip;"
+
+#: searchform.php:11
+msgctxt "submit button"
+msgid "Search"
+msgstr "Ψάξτε"
+
+#: searchform.php:9
+msgctxt "assistive text"
+msgid "Search"
+msgstr "Ψάξτε"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Ἀναζήτηση ἀποτελεσμάτων γιά: %s"
+
+#: inc/template-tags.php:161
+msgid "Leave a comment"
+msgstr "Σχολιάστε"
+
+#: inc/template-tags.php:160
+msgid "% Comments"
+msgstr "% Σχόλια"
+
+#: inc/template-tags.php:160
+msgid "0 Comments"
+msgstr "0 σχόλια"
+
+#: inc/template-tags.php:160
+msgid "1 Comment"
+msgstr "1 Σχόλιο"
+
+#: inc/template-tags.php:145
+msgid "View all posts by %s"
+msgstr "Δεῖτε ὅλες τὶς καταχωρίσεις τοῦ/τῆς %s"
+
+#: inc/template-tags.php:115
+msgid "Your comment is awaiting moderation."
+msgstr "Τὸ σχόλιό σας περιμένει ἔλεγχο γιὰ ἐνδεχόμενες ἀκρότητες."
+
+#: inc/template-tags.php:90
+msgid "%1$s ago"
+msgstr "πρὶν ἀπὸ %1$s"
+
+#: inc/template-tags.php:93
+msgid "posted %1$s by %2$s"
+msgstr "Ἀναρτήθηκε %1$s ἀπὸ τὸν/τὴν %2$s"
+
+#: inc/template-tags.php:88
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s στὶς %2$s"
+
+#: inc/template-tags.php:71
+msgid "Pingback:"
+msgstr "Αὐτόματη εἰδοποίηση σύνδεσης:"
+
+#: inc/template-tags.php:34
+msgid "Post navigation"
+msgstr "Περιήγηση ἄρθρων"
+
+#: inc/extras.php:58
+msgid "Page %s"
+msgstr "Σελίδα %s"
+
+#: header.php:44
+msgid "Skip to content"
+msgstr "Πηγαίνετε στὸ περιεχόμενο τοῦ ἱστολογίου"
+
+#: functions.php:78
+msgid "Sidebar"
+msgstr "Πλαϊνὴ στήλη"
+
+#: functions.php:51
+msgid "Primary Menu"
+msgstr "Πρωτεῦον μενού"
+
+#: footer.php:16
+msgid "Theme: %1$s by %2$s."
+msgstr "Θέμα: %1$s ἀπὸ τὸν/τὴν %2$s."
+
+#: footer.php:14
+msgid "Proudly powered by %s"
+msgstr "Λειτουργεῖ μὲ τὴν βοήθεια τοῦ %s"
+
+#. translators: used between list items, there is a space after the comma
+#: content.php:71 content.php:81
+msgid ", "
+msgstr ","
+
+#: content.php:60
+msgid "All %s posts"
+msgstr "Ὅλα τὰ ἄρθρα τοῦ %s"
+
+#: content.php:37
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Συνέχεια <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-page.php:23 content.php:21 content.php:89
+msgid "Edit"
+msgstr "Ἐπεξεργασία"
+
+#: content-page.php:19 content.php:40
+msgid "Pages:"
+msgstr "Σελίδες:"
+
+#: content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Μᾶλλον δὲν μποροῦμε νὰ βροῦμε αὐτὸ ποὺ ψάχνετε. Ἴσως βοηθήσει μιὰ ἀναζήτηση."
+
+#: content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Λυπούμεθα, ἀλλὰ τίποτε δὲν ταιριάζει μὲ τὶς λέξεις ἀναζήτησης. Παρακαλοῦμε ξαναδοκιμάστε μὲ διαφορετικὲς λέξεις-κλειδιά."
+
+#: content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Ἕτοιμος/-η γιὰ τὸ πρῶτο σας ἄρθρο; <a href=\"%1$s\">Ξεκινῆστε ἀπὸ δῶ</a>."
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "Οὑδὲν εὑρέθη!"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Ἡ ὑποβολὴ σχολίων ἔχει κλείσει."
+
+#: comments.php:38 comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr "Νεότερα σχόλια &rarr;"
+
+#: comments.php:37 comments.php:57
+msgid "&larr; Older Comments"
+msgstr "&larr; Παλαιότερα σχόλια"
+
+#: comments.php:36 comments.php:56
+msgid "Comment navigation"
+msgstr "Πλοήγηση στὰ σχόλια"
+
+#: archive.php:63 sidebar.php:17
+msgid "Archives"
+msgstr "Ἀρχεῖα"
+
+#: archive.php:60
+msgid "Links"
+msgstr "Σύνδεσμοι"
+
+#: archive.php:54
+msgid "Videos"
+msgstr "Βίντεο"
+
+#: archive.php:51
+msgid "Images"
+msgstr "Εἰκόνες"
+
+#: archive.php:45
+msgid "Year: %s"
+msgstr "Ἔτος: %s"
+
+#: archive.php:45
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:42
+msgid "Month: %s"
+msgstr "Μῆνας: %s"
+
+#: archive.php:42
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:39
+msgid "Day: %s"
+msgstr "Ἡμέρα: %s"
+
+#: archive.php:31
+msgid "Author: %s"
+msgstr "Συγγραφέας: %s"
+
+#. translators: %1$s: smiley
+#: 404.php:29
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Προσπαθῆστε νὰ ψάξετε στὰ μηνιαῖα ἀρχεῖα. %1$s"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Στὴν τοποθεσία αὐτὴν δὲν βρέθηκε τίποτε. Ἂν θέλετε δοκιμάστε κάποιον ἀπὸ τοὺς κατωτέρω συνδέσμους ἢ μιὰν ἀναζήτηση."
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ἡ σελίδα αὐτὴ δὲν βρέθηκε."

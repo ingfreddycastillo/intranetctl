@@ -1,0 +1,234 @@
+# Translation of Flounder in Esperanto
+# This file is distributed under the same license as the Flounder package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-01-09 09:32:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Flounder\n"
+
+#: sidebar.php:24
+msgid "Meta"
+msgstr "Metadatumoj"
+
+#: searchform.php:10
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Serĉi &hellip;"
+
+#: searchform.php:11
+msgctxt "submit button"
+msgid "Search"
+msgstr "Serĉi"
+
+#: searchform.php:9
+msgctxt "assistive text"
+msgid "Search"
+msgstr "Serĉi"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Serĉrezultoj por: %s"
+
+#: inc/template-tags.php:161
+msgid "Leave a comment"
+msgstr "Komenti"
+
+#: inc/template-tags.php:160
+msgid "% Comments"
+msgstr "% Komentoj"
+
+#: inc/template-tags.php:160
+msgid "0 Comments"
+msgstr "0 komentoj"
+
+#: inc/template-tags.php:160
+msgid "1 Comment"
+msgstr "1 komento"
+
+#: inc/template-tags.php:145
+msgid "View all posts by %s"
+msgstr "Vidu ĉiujn afiŝojn de %s"
+
+#: inc/template-tags.php:115
+msgid "Your comment is awaiting moderation."
+msgstr "Via komento atendas kontroladon"
+
+#: inc/template-tags.php:103
+msgid "in reply to %s"
+msgstr "responde al %s"
+
+#: inc/template-tags.php:88
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s je %2$s"
+
+#: inc/template-tags.php:71
+msgid "Pingback:"
+msgstr "Resondado:"
+
+#: inc/template-tags.php:44
+msgid "<i class=\"icon inline dashicons dashicons-arr-left\"></i> Older posts"
+msgstr "<i class=\"icon inline dashicons dashicons-arr-left\"></i> Pli malnova afiŝoj"
+
+#: inc/template-tags.php:48
+msgid "Newer posts <i class=\"icon inline dashicons dashicons-arr-right\"></i>"
+msgstr "Pli novaj afiŝoj <i class=\"icon inline dashicons dashicons-arr-right\"></i>"
+
+#: inc/template-tags.php:34
+msgid "Post navigation"
+msgstr "Navigado tra afiŝoj"
+
+#: inc/extras.php:58
+msgid "Page %s"
+msgstr "Paĝo %s"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Source Sans Pro, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:125
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr "on"
+
+#: header.php:44
+msgid "Skip to content"
+msgstr "Iri rekte al enhavo"
+
+#: functions.php:78
+msgid "Sidebar"
+msgstr "Flankpanelo"
+
+#: functions.php:51
+msgid "Primary Menu"
+msgstr "Ĉefa menuo"
+
+#: footer.php:16
+msgid "Theme: %1$s by %2$s."
+msgstr "Etoso: %1$s de %2$s."
+
+#: footer.php:14
+msgid "Proudly powered by %s"
+msgstr "Fiere kreata de %s"
+
+#. translators: used between list items, there is a space after the comma
+#: content.php:71 content.php:81
+msgid ", "
+msgstr ", "
+
+#: content.php:60
+msgid "All %s posts"
+msgstr "Ĉiuj %s-afiŝoj"
+
+#: content.php:37
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Legi plu <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-page.php:23 content.php:21 content.php:89
+msgid "Edit"
+msgstr "Redakti"
+
+#: content-page.php:19 content.php:40
+msgid "Pages:"
+msgstr "Paĝoj:"
+
+#: content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Ŝajnas, ke ni ne povas trovi tion. Eble serĉo helpos."
+
+#: content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Bedaŭrinde, nenio kongruis kun viaj serĉaj kriterioj. Bonvolu provi denove, uzante malsamajn vortojn."
+
+#: content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Ĉu preta por publikigi vian unuan afiŝon? <a href=\"%1$s\">Eku ĉi tie</a>."
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "Nenio estis trovita"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Komentado estas fermita."
+
+#: comments.php:38 comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr "Pli novaj komentoj &rarr;"
+
+#: comments.php:37 comments.php:57
+msgid "&larr; Older Comments"
+msgstr "&larr; Pli malnovaj komentoj"
+
+#: comments.php:36 comments.php:56
+msgid "Comment navigation"
+msgstr "Navigado tra komentoj"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "1 komento"
+msgstr[1] "%1$s komentoj"
+
+#: archive.php:63 sidebar.php:17
+msgid "Archives"
+msgstr "Arkivoj"
+
+#: archive.php:60
+msgid "Links"
+msgstr "Ligiloj"
+
+#: archive.php:57
+msgid "Quotes"
+msgstr "Citaĵoj"
+
+#: archive.php:54
+msgid "Videos"
+msgstr "Videoj"
+
+#: archive.php:51
+msgid "Images"
+msgstr "Bildoj"
+
+#: archive.php:48
+msgid "Asides"
+msgstr "Mencioj"
+
+#: archive.php:45
+msgid "Year: %s"
+msgstr "Jaro: %s"
+
+#: archive.php:45
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:42
+msgid "Month: %s"
+msgstr "Monato: %s"
+
+#: archive.php:42
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:39
+msgid "Day: %s"
+msgstr "Tago: %s"
+
+#: archive.php:31
+msgid "Author: %s"
+msgstr "Aŭtoro: %s"
+
+#. translators: %1$s: smiley
+#: 404.php:29
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Provu rigardi en la monataj arkivoj: %1$s"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ne eblas trovi tiun paĝon."
